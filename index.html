@@ -6,42 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adithya Manikiran</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </head>
 
-<body class="d-flex h-100 text-center text-bg-dark">
+<body>
+    <style>
+        .flexbox-container {
+            display: flex;
+            background-color: rgb(0, 0, 0);
+        }
 
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-            <div>
-                <h3 class="float-md-start mb-0">AMK</h3>
-                <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-                    <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-                </nav>
+        .nav-side-flex {
+            width: 300px;
+        }
+
+        .image-fluid {
+            border-radius: 100px;
+        }
+
+        .center-content {
+            order: 1;
+        }
+
+        .right-content {
+            order: 2;
+        }
+
+        .main-text {
+            color: rgb(255, 254, 255);
+            position:absolute;
+            top: 300px;
+            left: 400px;
+        }
+    </style>
+
+
+    <div class="flexbox-container">
+        <div class="nav-side-flex bg-dark pt-5 text-center">
+            <div class="container-1 pt-2 text-light text-center">
+                <img class="image-fluid" src="/Img/me.jpeg" width="150" height="200" alt="">
+                <div>
+                    <h2>
+                        Adithya Manikiran
+                        <div>
+                            <a href="https://fb.com/ManikiranMA"><img src="/Img/facebook.png" width="30" alt=""></a>
+                            <a href="https://instagram.com/thisis_aditya_manikiran"><img src="/Img/instagram.png"
+                                    width="50" alt=""></a>
+                        </div>
+                    </h2>
+                </div>
             </div>
-        </header>
 
-        <main class="px-3">
-            <h1>Adithya Manikiran Murkipudi</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit
-                the text, and add your own fullscreen background photo to make it your own.</p>
-            <p class="lead">
-                <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-            </p>
-        </main>
+            <div class="container-2 pt-3 text-light">
+                <ul>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-dark" type="button">About Me</button>
 
-        <footer class="mt-auto text-white-50">
-            <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a
-                    href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-        </footer>
+                        <button class="btn btn-dark" type="button">Work Experience</button>
+                        <button class="btn btn-dark" type="button">Resume</button>
+                        <button class="btn btn-dark" type="button">Projects</button>
+                        <button class="btn btn-dark" type="button">Contact me</button>
+                    </div>
+
+                </ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+            </div>
+        </div>
+
+        <div class="main-text">
+            <h2>About me</h2>
+            <p>I am an Automobile Engineer. I am from Hyderabad. I live in Qatar.</p>
+        </div>
+
+        <div class="right-content">
+            <div class="opacity-25">
+
+                <img class="image-fuid" src="/Img/20221013_174444-02.jpeg" width="521" alt="">
+            </div>
+        </div>
+
+        <div class="center-content">
+            <div class="opacity-25">
+
+                <img class="image-fuid" src="/Img/20221103_185755-02.jpeg" width="521" alt="">
+            </div>
+        </div>
+
     </div>
+
 
 </body>
 
