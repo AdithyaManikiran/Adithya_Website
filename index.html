@@ -6,117 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adithya Manikiran</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/@popperjs/core/dist/cjs/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
 </head>
+<style>
+
+</style>
 
 <body>
-    <style>
-        .flexbox-container {
-            display: flex;
-            background-color: rgb(0, 0, 0);
-        }
-
-        .nav-side-flex {
-            width: 300px;
-        }
-
-        .image-fluid {
-            border-radius: 100px;
-        }
-
-        .center-content {
-            order: 1;
-        }
-
-        .right-content {
-            order: 2;
-        }
-
-        .main-text {
-            color: rgb(255, 254, 255);
-            position: absolute;
-            top: 250px;
-            left: 400px;
-        }
-    </style>
-
-
-    <div class="flexbox-container">
-        <div class="nav-side-flex bg-dark pt-5 text-center">
-            <div class="container-1 pt-2 text-light text-center">
-                <img class="image-fluid" src="/Img/me.jpeg" width="150" height="200" alt="">
-                <div>
-                    <h2>
-                        Adithya Manikiran
+    <div class="container-fluid bg-white">
+        <div class="row g-0">
+            <div class="col-sm-12 col-md-3 bg-black text-center text-white">
+                <div class="my-5">
+                    <img src="/Img/20221103_185755-02.jpeg" class="object-fit-scale border rounded w-50" alt="">
+                    <div class="my-5">
+                        <h2>Adithya Manikiran Murkipudi</h2>
                         <div>
-                            <a href="https://fb.com/ManikiranMA"><img src="/Img/facebook.png" width="30" alt=""></a>
+                            <a href="https://fb.com/ManikiranMA"><img src="/Img/facebook.png" class="rounded" width="50"
+                                    alt=""></a>
                             <a href="https://instagram.com/thisis_aditya_manikiran"><img src="/Img/instagram.png"
                                     width="50" alt=""></a>
                         </div>
-                    </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 pt-5  text-center text-black">
+
+
+                <h1 class="my-5">
+                    Welcome!
+                </h1>
+                <h2 class="pt-3">
+                    I am an Automobile engineer.<br> I live in Qatar.<br>
+                </h2>
+                <a href="" type="button" class="btn btn-outline-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 0.75rem;">
+                    Contact Me
+                </a>
+                <a href="/Img/Adithya Manikiran CV.pdf" type="button" class="btn  btn-outline-warning"
+                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 0.75rem;">
+                    Download My Resume
+                </a>
+                <div class="image-fluid text-center my-5">
+                    <img src="Img/Wheels.jpg" class="img-thumbnail rounded border border-warning" width="250" alt="...">
+                    <img src="Img/engine.jpg" class="img-thumbnail rounded border border-warning" width="310" alt="...">
                 </div>
             </div>
 
-            <div class="container-2 pt-3 text-light">
+        </div>
+        <div class="row g-0">
+            <div class="row-sm-12 col-md-3 bg-black text-center text-white g-0">
                 <ul>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-dark" type="button">About Me</button>
-                    </div>
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-dark" type="button">Work Experience</button>
-                    </div>
-                    <a href="/Img/Adithya Manikiran CV.pdf">
-                        <div class="d-grid gap-2">
-                            <button class="btn btn-dark" type="button">
-                                Resume
-                            </button>
-                        </div>
-
-                    </a>
-
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-dark" type="button">Projects</button>
-                    </div>
-
-                    <div class="d-grid gap-2">
-                        <button class="btn btn-dark" type="button">Contact me</button>
-                    </div>
-
+                    <div class="d-grid gap-3 ">
+                        <a href="index.html" class="btn btn-outline-black" type="button">About Me</a>
+                        <a href="Work_Experience.html" class="btn btn-outline-black" type="button">Work Experience</a>
+                        <a href="/Img/Adithya Manikiran CV.pdf" class="btn btn-outline-black" type="button">Resume</a>
+                        <a href="Contact_me.html" class="btn btn-outline-black" type="button">contact me</a>
                 </ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
             </div>
         </div>
-
-        <div class="main-text">
-            <h2>About me</h2>
-            <p>I am an Automobile Engineer. I am from Hyderabad. I live in Qatar.</p>
-            <p>I am learning designing and coding as hobbies</p>
-            <hr>
-            <h2>contact Me</h2>
-            <p>you can contact me on my email: manikiran522@gmail.com</p>
-        </div>
-
-        <div class="right-content">
-            <div class="opacity-25">
-
-                <img class="image-fuid" src="/Img/20221013_174444-02.jpeg" width="521" alt="">
-            </div>
-        </div>
-
-        <div class="center-content">
-            <div class="opacity-25">
-
-                <img class="image-fuid" src="/Img/20221103_185755-02.jpeg" width="521" alt="">
-            </div>
-        </div>
-
     </div>
-
 
 </body>
 
